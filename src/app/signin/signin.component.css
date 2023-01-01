@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container1{
+    box-shadow: 0px 0px 30px dodgerblue;
+    border-radius: 1em;
+}
+.title h2{
+    font-family: robot, sans-serif;
+    font-size: 2.3rem;
+    color: white;
+    text-shadow: 2px 2px 3px dodgerblue;
+    font-weight: 700;
+    padding: 1em;
+}
+mat-card{
+    width:100%;
+    min-width: 500px;
+    max-width:700px;
+    background: linear-gradient(105deg, #ADA2FF, #C0DEFF);
+    text-align: center;
+}
+mat-form-field{
+    width: 70%;
+}
+mat-label, .remMe{
+    color: white;
+    font-size: 1.1rem;
+}
+mat-form-field input{
+    padding: 5px;
+}
+.email,.password,.remMe,.loginBtn{
+    margin: 1.5em auto;
+}
+.password button{
+    background-color: rgba(30, 143, 255, 0.2);
+}
+.loginBtn button{
+    background-color: dodgerblue;
+    width: 40%;
+    padding: 0.5em;
+    font-size: 1.5em;
+}
+@media screen and (max-width:500px) {
+    mat-card{
+    width:100%;
+    min-width: 300px;
+    max-width:700px;
+    padding: 1.5em 0.5em;
+    }
+}
